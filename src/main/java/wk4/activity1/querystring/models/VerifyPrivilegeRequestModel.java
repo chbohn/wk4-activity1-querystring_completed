@@ -14,6 +14,8 @@ public class VerifyPrivilegeRequestModel {
     private int plevel;
 
     @JsonCreator
+    public VerifyPrivilegeRequestModel() { }
+
     public VerifyPrivilegeRequestModel(
             @JsonProperty(value = "email", required = true) String email,
             @JsonProperty(value = "plevel", required = true) int plevel) {
