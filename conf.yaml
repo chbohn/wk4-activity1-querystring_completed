@@ -9,12 +9,12 @@ loggerConfig:
   outputFile: example.log
 
 databaseConfig:
-  dbUsername: cs122b-inst
-  dbPassword: cs122btest
-  dbHostname: localhost
+  dbUsername:
+  dbPassword:
+  dbHostname:
   dbPort: 3307
   dbDriver: com.mysql.cj.jdbc.Driver
-  dbName: cs122b-ins-1
+  dbName:
   dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
 
 idmConfig:

@@ -65,11 +65,6 @@ public class StudentRecords {
 //            VerifyPrivilegeResponseModel responseModel = response.readEntity(VerifyPrivilegeResponseModel.class);
             String jsonText = response.readEntity(String.class);
             ServiceLogger.LOGGER.info("JsonText: " + jsonText);
-            /*
-            if (responseModel.getResultCode() == 140) {
-                return true;
-            }
-             */
         } else {
             ServiceLogger.LOGGER.info("Received Status " + response.getStatus() + " -- you lose.");
         }
